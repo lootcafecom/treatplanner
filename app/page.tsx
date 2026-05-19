@@ -221,7 +221,7 @@ export default function Home() {
             </div>
           </div>
           <div style={{textAlign:"center"}}>
-            <Link href="/search" className="btn-primary" style={{fontSize:16,textDecoration:"none"}}>Find My Cheapest Route →</Link>
+            <Link href="/find" className="btn-primary" style={{fontSize:16,textDecoration:"none"}}>Find My Cheapest Route →</Link>
           </div>
         </div>
       </section>
@@ -363,7 +363,7 @@ export default function Home() {
           <h2 style={{fontSize:44,fontWeight:700,color:"white",marginBottom:14}}>Ready to Save on Your Treatment?</h2>
           <p style={{fontSize:18,color:"rgba(255,255,255,0.85)",marginBottom:36,maxWidth:500,margin:"0 auto 36px"}}>Join 50,000+ patients who found world-class care at a fraction of the price.</p>
           <div style={{display:"flex",gap:14,justifyContent:"center",flexWrap:"wrap"}}>
-            <Link href="/search" style={{background:"white",color:"var(--teal)",padding:"14px 32px",borderRadius:10,fontWeight:700,fontSize:16,textDecoration:"none"}}>Search Hospitals Free →</Link>
+            <Link href="/find" style={{background:"white",color:"var(--teal)",padding:"14px 32px",borderRadius:10,fontWeight:700,fontSize:16,textDecoration:"none"}}>Search Hospitals Free →</Link>
             <Link href="/calculator" style={{background:"rgba(255,255,255,0.15)",color:"white",padding:"14px 32px",borderRadius:10,fontWeight:600,fontSize:16,textDecoration:"none",border:"2px solid rgba(255,255,255,0.4)"}}>Calculate My Savings</Link>
           </div>
         </div>
